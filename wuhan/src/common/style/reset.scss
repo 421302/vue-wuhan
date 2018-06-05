@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+  font-family: "Microsoft YaHei";
+}
+
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,a {
+  margin: 0;
+  padding: 0;
+  color:#333;
+}
+p,ul,li,ol,li{
+  font-size:14px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 400;
+}
+fieldset,img {
+  border: none;
+}
+
+address,caption,cite,code,dfn,th,var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul,ol,li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix:after{
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.register:before{
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  left: 3px;
+  top: 5px;
+  background-color: #999;
+}
